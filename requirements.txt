@@ -3,3 +3,4 @@ tensorflow
 pillow
 numpy
 tensorflow-cpu
+streamlit-extras
