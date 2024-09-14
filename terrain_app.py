@@ -6,7 +6,7 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 
 
 # Load the trained model
-model = tf.keras.models.load_model(r"C:\Users\prati\Desktop\Python Analysis\models\terrain_one.keras")
+model = tf.keras.models.load_model("./terrain_one.keras")
 
 # Define image size (ensure this matches your model's expected input size)
 IMAGE_SIZE = (256, 256)  # Adjust if needed to match your model
